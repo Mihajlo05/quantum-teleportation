@@ -133,8 +133,8 @@ n_of_teleportations = 100
 error_prob_values = np.linspace(0, 1, n_of_teleportations)
 
 # podesi ove varijable da bi izabrao tip suma za odrenjenu qubit
-noise_in_mode = NoiseMode.PhaseFlip
-noise_ch1_mode = NoiseMode.BitFlip
+noise_in_mode = NoiseMode.BitFlip
+noise_ch1_mode = NoiseMode.PhaseFlip
 noise_ch2_mode = NoiseMode.DepolarizingNoise
 
 fidelity_values = []
